@@ -1,6 +1,6 @@
 ## cypress-base
 
-[![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-tests.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-tests.yml)
+[![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml)
 
 ## Site :
 https://pokeapi.co/
