@@ -44,7 +44,12 @@ https://pokeapi.co/
 └── README.md
 ```
 
-### E2E tests :
+## Install :
+```
+npm i
+```
+
+## E2E tests :
 - Runnig with headfull mode :
 ```
 npm run cy:e2e:open
