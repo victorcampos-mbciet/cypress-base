@@ -1,8 +1,10 @@
-## cypress-base
+# cypress-base
+> Generica and plug and play structure with Cypress E2E and integration tests.
 
+## Validated by :
 [![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml)
 
-## Site :
+## Sample application :
 https://pokeapi.co/
 
 ## Structure :
@@ -69,6 +71,8 @@ npm run cy:serve:open
 ```
 npm run cy:serve:run
 ```
+
+## Running🏃🏃: 
 
 ## TODO
 - [] Add report
