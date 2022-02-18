@@ -7,8 +7,10 @@
     "npm": "6.x"
   },
   "scripts": {
-    "cy:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/",
-    "cy:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/"
+    "cy:e2e:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/",
+    "cy:e2e:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/ --spec 'cypress/integration/1.real/**'",
+    "cy:integration:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/",
+    "cy:integration:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/ --spec 'cypress/integration/2.mocked/**'"
   },
   "devDependencies": {
     "cypress": "^9.1.1",

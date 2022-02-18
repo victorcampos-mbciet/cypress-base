@@ -1,6 +1,7 @@
 {
   "chromeWebSecurity": false,
   "screenshotOnRunFailure": true,
+  "video": false,
   "retries": {
     "openMode": 0,
     "runMode": 3
