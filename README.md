@@ -1,5 +1,5 @@
 # cypress-base
-> Generic and plug and play structure with Cypress for E2E and integration tests.
+> Plug and play structure with Cypress for E2E and integration tests.
 
 ## Validated on Github Actions :
 [![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml)
