@@ -60,6 +60,10 @@ npm run cy:e2e:open
 ```
 npm run cy:e2e:run
 ```
+<details>
+  <summary>What concept did i take into account on **E2E** ?</summary>
+  > TODO
+</details> 
 
 ## Integration tests :
 
@@ -71,6 +75,11 @@ npm run cy:serve:open
 ```
 npm run cy:serve:run
 ```
+
+<details>
+  <summary>What concept did i take into account on **INTEGRATION** ?</summary>
+  > TODO
+</details> 
 
 ## Running🏃🏃: 
 ![RUNNING](support/runnig.gif)
