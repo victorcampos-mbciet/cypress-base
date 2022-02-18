@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity": false,
+  "screenshotOnRunFailure": true,
+  "retries": {
+    "openMode": 0,
+    "runMode": 3
+  },
+  "env": {
+    "URL_API_POKEMON": {
+      "pokemon": "**api/v2/pokemon"
+    },
+    "numTestsKeptInMemory": 3,
+    "viewportWidth": 1440,
+    "viewportHeight": 900
+  }
+}
