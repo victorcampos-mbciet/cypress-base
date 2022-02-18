@@ -33,7 +33,7 @@ https://pokeapi.co/
 │       │   ├── custom
 │       │   │   └── assert.js
 │       │   └── mocks
-│       │       └── api-cep.js
+│       │       └── api-pokemon.js
 │       ├── commands.js
 │       ├── helpers
 │       │   └── selectors.js
