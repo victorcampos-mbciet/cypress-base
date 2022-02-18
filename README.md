@@ -1,4 +1,5 @@
 ## cypress-base
+
 [![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/actions-tests.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/actions-tests.yml)
 
 ## Site :
