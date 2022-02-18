@@ -1,5 +1,5 @@
 # cypress-base
-> Generica and plug and play structure with Cypress to E2E and integration tests.
+> Generic and plug and play structure with Cypress to E2E and integration tests.
 
 ## Validated on Github Actions :
 [![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml)
@@ -61,7 +61,7 @@ npm run cy:e2e:open
 npm run cy:e2e:run
 ```
 <details>
-  <summary>What concept did i take into account on **E2E** ?</summary>
+  <summary>What concept did i take into account on e2e test ?</summary>
   > TODO
 </details> 
 
@@ -69,15 +69,15 @@ npm run cy:e2e:run
 
 - Runnig with headfull mode :
 ```
-npm run cy:serve:open
+npm run cy:integration:open
 ```
 - Runnig with headless mode :
 ```
-npm run cy:serve:run
+npm run cy:integration:run
 ```
 
 <details>
-  <summary>What concept did i take into account on **INTEGRATION** ?</summary>
+  <summary>What concept did i take into account on integration ?</summary>
   > TODO
 </details> 
 
