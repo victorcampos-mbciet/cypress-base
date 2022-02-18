@@ -1,3 +1,3 @@
-import './commands/mocks/api-cep';
+import './commands/mocks/api-pokemon';
 import './commands/custom/assert';
 import './helpers/selectors';
