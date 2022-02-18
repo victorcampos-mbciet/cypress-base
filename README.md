@@ -73,6 +73,7 @@ npm run cy:serve:run
 ```
 
 ## Running🏃🏃: 
+![RUNNING](support/runnig.gif)
 
 ## TODO
 - [] Add report
