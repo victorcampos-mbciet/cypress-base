@@ -1,7 +1,7 @@
 # cypress-base
 > Generica and plug and play structure with Cypress to E2E and integration tests.
 
-## Validated by :
+## Validated on Github Actions :
 [![actions-tests](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml/badge.svg)](https://github.com/victorcampos-mbciet/cypress-base/actions/workflows/cypress-test.yml)
 
 ## Sample application :
