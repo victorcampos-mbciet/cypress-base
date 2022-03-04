@@ -10,11 +10,17 @@
     "cy:e2e:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/",
     "cy:e2e:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/ --spec 'cypress/integration/1.real/**'",
     "cy:integration:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/",
-    "cy:integration:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/ --spec 'cypress/integration/2.mocked/**'"
+    "cy:integration:run": "cypress run --browser chrome --config baseUrl=https://pokeapi.co/ --spec 'cypress/integration/2.mocked/**'",
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > index.json",
+    "report:generate": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
   },
   "devDependencies": {
     "cypress": "^9.1.1",
     "cypress-localstorage-commands": "^1.6.1",
-    "cypress-multi-reporters": "^1.5.0"
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.2.1",
+    "mochawesome": "^7.1.1",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.1.0"
   }
 }

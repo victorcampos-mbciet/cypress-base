@@ -1,7 +1,13 @@
 {
   "chromeWebSecurity": false,
   "screenshotOnRunFailure": true,
-  "video": false,
+  "screenshotsFolder": "public/screenshots",
+  "videosFolder": "public/videos",
+  "video": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+      "configFile": "reporter-config.json"
+  },
   "retries": {
     "openMode": 0,
     "runMode": 3
