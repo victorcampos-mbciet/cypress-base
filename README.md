@@ -79,7 +79,7 @@ npm run cy:e2e:run
 > Frontend + Backend :  
 ![ARCH](support/draw-arq.png)
 
->  All environment up : 
+> **E2E test** : All environment up : 
 ![ARCH](support/draw-e2e.png)
 
 ## Integration tests :
@@ -96,7 +96,7 @@ npm run cy:integration:run
 > Frontend + Backend :  
 ![ARCH](support/draw-arq.png)
 
->  Frontend → `UP` and Backend → `Mocked` : 
+>  **Integration test:** Frontend → `UP` and Backend → `Mocked` : 
 ![ARCH](support/draw-integration.png)
 
 ## Base url :
