@@ -82,7 +82,7 @@ npm run cy:integration:run
 </details> 
 
 ## Base url :
-> The `baseUrl` is configured in the ´package.json´:
+> The `baseUrl` is configured in the `package.json`:
 ```
 "cy:e2e:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/"
 ```
@@ -91,7 +91,9 @@ npm run cy:integration:run
 ![RUNNING](support/running.gif)
 
 ## Report 📝 :
-> The report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make a Download and open `index.html`.
+> The report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open `index.html`.
+> In the future the ideia is use `https://pages.github.com/`.
+
 ![RUNNING](support/report.gif)
 
 ## TODO
