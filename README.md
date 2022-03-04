@@ -87,6 +87,7 @@ npm run cy:integration:run
 ![ARCH](support/draw-arq.png)
 
 >  **Integration test:** Frontend → `FULL UP` **and** Backend → `Mocked` : 
+![ARCH](support/draw-integration.png)
 >  [In this project](https://github.com/victorcampos-mbciet/cypress-base/blob/master/cypress/support/commands/mocks/api-pokemon.js) we use `cy.intercept` to mock :
 ```JavaScript
 Cypress.Commands.add('mock_api_pokemon', (httpMethod, statusCode, param) => {
@@ -96,7 +97,6 @@ Cypress.Commands.add('mock_api_pokemon', (httpMethod, statusCode, param) => {
       }).as(`mock_api_pokemon_${httpMethod}_response`);
 });
 ```
-![ARCH](support/draw-integration.png)
 
 ## Base url :
 > The `baseUrl` is configured in the `package.json`:
