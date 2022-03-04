@@ -88,8 +88,11 @@ npm run cy:integration:run
 ```
 
 ## Running🏃🏃: 
-![RUNNING](support/runnig.gif)
+![RUNNING](support/running.gif)
+
+## Report 📝 :
+> The report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make a Download and open `index.html`.
+![RUNNING](support/report.gif)
 
 ## TODO
-- [] Add report
 - [] Add concept draw
