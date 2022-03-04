@@ -14,10 +14,11 @@ https://pokeapi.co/
 │   ├── fixtures
 │   │   └── api
 │   │       └── pokemon
-│   │           ├── 200
-│   │           │   └── response.json
-│   │           └── 500
-│   │               └── response.json
+│   │           └── GET
+│   │               ├── 200
+│   │               │   └── response.json
+│   │               └── 500
+│   │                   └── response.json
 │   ├── integration
 │   │   ├── 1.real
 │   │   │   └── 1.Home
@@ -28,6 +29,16 @@ https://pokeapi.co/
 │   │           └── b.error.spec.js
 │   ├── plugins
 │   │   └── index.js
+│   ├── results
+│   │   └── json
+│   │       ├── mochawesome_001.json
+│   │       ├── mochawesome_002.json
+│   │       ├── mochawesome_003.json
+│   │       ├── mochawesome_004.json
+│   │       ├── mochawesome_005.json
+│   │       ├── mochawesome_006.json
+│   │       ├── mochawesome_007.json
+│   │       └── mochawesome.json
 │   └── support
 │       ├── commands
 │       │   ├── custom
@@ -41,9 +52,12 @@ https://pokeapi.co/
 │       └── pages
 │           └── homePage.js
 ├── cypress.json
+├── index.json
 ├── package.json
 ├── package-lock.json
-└── README.md
+├── public
+├── README.md
+└── reporter-config.json
 ```
 
 ## Install :
