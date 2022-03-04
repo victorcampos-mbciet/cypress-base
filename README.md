@@ -105,7 +105,7 @@ npm run cy:integration:run
 ![RUNNING](support/running.gif)
 
 ## Report 📝 :
-> After each execution of `Github Actions` a report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open `index.html`.
+> After each execution in `Github Actions` a report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open the `index.html`.
 
 > In the future the ideia is use `https://pages.github.com/`.
 
