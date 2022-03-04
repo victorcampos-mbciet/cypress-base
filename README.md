@@ -96,7 +96,7 @@ npm run cy:integration:run
 > Frontend + Backend :  
 ![ARCH](support/draw-arq.png)
 
->  **Integration test:** Frontend → `UP` and Backend → `Mocked` : 
+>  **Integration test:** Frontend → `FULL UP` **and** Backend → `Mocked` : 
 ![ARCH](support/draw-integration.png)
 
 ## Base url :
@@ -109,7 +109,7 @@ npm run cy:integration:run
 ![RUNNING](support/running.gif)
 
 ## Report 📝 :
-> After each execution in `Github Actions` a report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open the `index.html`.
+> After each execution in `Github Actions` a report is available in [ this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open the `index.html`.
 
 > In the future the ideia is use `https://pages.github.com/`.
 
