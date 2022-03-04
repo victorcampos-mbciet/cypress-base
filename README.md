@@ -81,6 +81,12 @@ npm run cy:integration:run
   > TODO
 </details> 
 
+## Base url :
+> The `baseUrl` is configured in the ´package.json´:
+```
+"cy:e2e:open": "cypress open --browser chrome --config baseUrl=https://pokeapi.co/"
+```
+
 ## Running🏃🏃: 
 ![RUNNING](support/runnig.gif)
 
