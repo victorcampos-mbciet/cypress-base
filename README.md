@@ -106,6 +106,7 @@ npm run cy:integration:run
 
 ## Report 📝 :
 > The report is available [in this branch](https://github.com/victorcampos-mbciet/cypress-base/tree/gh-pages). Make the Download and open `index.html`.
+
 > In the future the ideia is use `https://pages.github.com/`.
 
 ![RUNNING](support/report.gif)
