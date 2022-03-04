@@ -29,16 +29,6 @@ https://pokeapi.co/
 │   │           └── b.error.spec.js
 │   ├── plugins
 │   │   └── index.js
-│   ├── results
-│   │   └── json
-│   │       ├── mochawesome_001.json
-│   │       ├── mochawesome_002.json
-│   │       ├── mochawesome_003.json
-│   │       ├── mochawesome_004.json
-│   │       ├── mochawesome_005.json
-│   │       ├── mochawesome_006.json
-│   │       ├── mochawesome_007.json
-│   │       └── mochawesome.json
 │   └── support
 │       ├── commands
 │       │   ├── custom
