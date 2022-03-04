@@ -97,6 +97,15 @@ npm run cy:integration:run
 ![ARCH](support/draw-arq.png)
 
 >  **Integration test:** Frontend → `FULL UP` **and** Backend → `Mocked` : 
+>  [In this project](https://github.com/victorcampos-mbciet/cypress-base/blob/master/cypress/support/commands/mocks/api-pokemon.js) we use `cy.intercept` to mock :
+```JavaScript
+Cypress.Commands.add('mock_api_pokemon', (httpMethod, statusCode, param) => {
+    cy.intercept(httpMethod, `${Cypress.env('URL_API_POKEMON').pokemon}/${param}`, {
+        statusCode: statusCode,
+        fixture: `api/pokemon/${httpMethod}/${statusCode}/response.json`
+      }).as(`mock_api_pokemon_${httpMethod}_response`);
+});
+```
 ![ARCH](support/draw-integration.png)
 
 ## Base url :
