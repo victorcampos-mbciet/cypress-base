@@ -74,10 +74,13 @@ npm run cy:e2e:open
 ```
 npm run cy:e2e:run
 ```
-<details>
-  <summary>What concept did i take into account on e2e test ?</summary>
-  > TODO
-</details> 
+
+### E2E concept :
+> Frontend + Backend :  
+![ARCH](support/draw-arq.png)
+
+>  All environment up : 
+![ARCH](support/draw-e2e.png)
 
 ## Integration tests :
 
@@ -89,11 +92,12 @@ npm run cy:integration:open
 ```
 npm run cy:integration:run
 ```
+### Integration concept :
+> Frontend + Backend :  
+![ARCH](support/draw-arq.png)
 
-<details>
-  <summary>What concept did i take into account on integration ?</summary>
-  > TODO
-</details> 
+>  Frontend → `UP` and Backend → `Mocked` : 
+![ARCH](support/draw-integration.png)
 
 ## Base url :
 > The `baseUrl` is configured in the `package.json`:
@@ -110,6 +114,3 @@ npm run cy:integration:run
 > In the future the ideia is use `https://pages.github.com/`.
 
 ![RUNNING](support/report.gif)
-
-## TODO
-- [] Add concept draw
